@@ -7,9 +7,9 @@ public class Tinsel extends Decorator{
 
     @Override
     public String decorate() {
-        return super.decorate();
+        return super.decorate()+this.decorateWithTinsel();
     }
     public String decorateWithTinsel(){
-        return "decorateWithTinsel";
+        return " DecorateWithTinsel";
     }
 }

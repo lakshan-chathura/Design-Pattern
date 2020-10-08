@@ -11,7 +11,7 @@ class TreeTopper extends Decorator{
     }
 
     public String decorateWithTreeTopper(){
-      return "decorateWithTreeTopper";
+      return " DecorateWithTreeTopper";
     }
 
 }
